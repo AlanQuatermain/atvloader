@@ -1,0 +1,4 @@
+/* Localized versions of Info.plist keys */
+
+NSHumanReadableCopyright = "© AwkwardTV, 2007";
+CFBundleName = "Awkward TV";

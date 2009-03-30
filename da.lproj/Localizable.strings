@@ -1,0 +1,174 @@
+/* About menu item title */
+"About" = "Om";
+
+/* 'About' document header */
+"About ATVLoader" = "Om ATVLoader";
+
+/* Alert dialog title */
+"AFP Disable Failed" = "AFP deaktivering mislykkedes";
+
+/* Alert dialog title */
+"AFP Enable Failed" = "AFP aktivering mislykkedes";
+
+/* SSH Menu item title when AFP server is disabled */
+"AFPDisabled" = "AFP service deaktiveret";
+
+/* Alert dialog primary string */
+"AFPDisableFailedPrimary" = "Ude af stand til at deaktivere AFP serveren";
+
+/* Alert dialog secondary string */
+"AFPDisableFailedSecondary" = "Det er muligt at AFP serveren ikke kører i øjeblikket, eller ikke bliver startet ved boot";
+
+/* SSH Menu item title when AFP server is enabled */
+"AFPEnabled" = "AFP service aktiveret";
+
+/* Alert dialog primary string */
+"AFPEnableFailedPrimary" = "Ude af stand til at starte AFP serveren";
+
+/* Alert dialog secondary string */
+"AFPEnableFailedSecondary" = "";
+
+/* Alert dialog primary string */
+"An error occurred during installation" = "Der opstod en fejl ved installationen";
+
+/* 'author' plugin info leader */
+"Author" = "Skaber";
+
+/* 'url' plugin info leader */
+"Author's URL" = "Skaberens URL";
+
+/* Title of the plugin's item on the main menu */
+"AwkwardTVMenuItemName" = "AwkwardTV";
+
+/* 'category' plugin info leader */
+"Category" = "Kategori";
+
+/* 'copyright' plugin info leader */
+"Copyright" = "Copyright";
+
+/* Disable Service Button Title */
+"Disable" = "Deaktiver";
+
+/* Disable AFP Document Header */
+"Disable AFP Server" = "Deaktiver AFP server";
+
+/* Disable SSH Document Header */
+"Disable SSH Server" = "Deaktiver SSH server";
+
+/* Plugin download page title */
+"Downloading Plugin..." = "Downloader plugin...";
+
+/* Codec download page title */
+"Downloading QuickTime Codec..." = "Downloader QuickTime codec...";
+
+/* Screen saver download page title */
+"Downloading Screen Saver..." = "Downloader skærmskåner...";
+
+/* Default download page title */
+"Downloading..." = "Downloader...";
+
+/* Download Plugins menu title */
+"DownloadNewPlugins" = "Download plugins";
+
+/* Enable Service Button Title */
+"Enable" = "Aktiver";
+
+/* Enable AFP Document Header */
+"Enable AFP Server" = "Aktiver AFP server";
+
+/* Enable SSH Document Header */
+"Enable SSH Server" = "Aktiver SSH server";
+
+/* Parser error reason */
+"Error parsing XML file" = "Fejl ved analysering af XML fil";
+
+/* 'Install plugin' button title */
+"Install" = "Installer";
+
+/* Page title when installation is complete */
+"Installation Complete" = "Installation fuldført";
+
+/* Alert dialog title */
+"Installation Failed" = "Installationen fejlede";
+
+/* Plugin install page title */
+"Installing Plugin..." = "Installerer plugin...";
+
+/* Codec install page title */
+"Installing QuickTime Codec..." = "Installerer QuickTime codec...";
+
+/* Screen saver install page title */
+"Installing Screen Saver..." = "Installerer skærmskåner...";
+
+/* Default install page title */
+"Installing..." = "Installerer...";
+
+/* 'pubDate' plugin info leader */
+"Last Updated" = "Sidst opdateret";
+
+/* 'license' plugin info leader */
+"License" = "Licens";
+
+/* Shown while waiting for individual plugin images to download */
+"LoadingPluginImages" = "Indlæser plugin billeder";
+
+/* Shown while waiting for individual plugin info to download */
+"LoadingPluginInfo" = "Indlæser plugin information";
+
+/* Shown while waiting for plugin list to download */
+"LoadingPluginList" = "Indlæser AwkwardTV plugin katalog";
+
+/* Button Title */
+"OK" = "OK";
+
+/* Parser error suggestion */
+"XMLParserErrorSuggestion" = "Kontakt venligst administratoren for plugins.awkwardtv.org og indberedt problemet";
+
+/* Quit */
+"Quit" = "Afslut";
+
+/* Title for Advance Reboot Warning alert */
+"RebootWarningTitle" = "Genstart kræves";
+
+/* Alert dialog title */
+"SSH Disable Failed" = "SSH deaktivering fejlede";
+
+/* Alert dialog title */
+"SSH Enable Failed" = "SSH aktivering fejlede";
+
+/* SSH Menu item title when SSH server is disabled */
+"SSHDisabled" = "SSH service deaktiveret";
+
+/* Alert dialog primary string */
+"SSHDisableFailedPrimary" = "Fejl ved deaktivering af SSH service";
+
+/* Alert dialog secondary string */
+"SSHDisableFailedSecondary" = "Servicen var muligvis ikke aktiv.";
+
+/* SSH Menu item title when SSH server is enabled */
+"SSHEnabled" = "SSH serveren aktiveret";
+
+/* Alert dialog primary string */
+"SSHEnableFailedPrimary" = "Fejl ved aktivering af SSH service";
+
+/* Alert dialog secondary string */
+"SSHEnableFailedSecondary" = "";
+
+/* No comment provided by engineer. */
+"UnimplementedFeature" = "Ikke implementeret feature";
+
+/* No comment provided by engineer. */
+"UnimplementedPrimary" = "Denne feature er ikke implementeret endnu";
+
+/* No comment provided by engineer. */
+"UnimplementedSecondary" = "...det bliver fedt når den er, dog";
+
+/* Failure reason string */
+"Unzip/untar failed with error '%d'" = "Unzip/untar afsluttet med fejlen '%d'";
+
+/* Text tag for updated plugin list items */
+"Updated" = "Opdateret";
+
+/* 'version' plugin info leader */
+"Version" = "Version";
+

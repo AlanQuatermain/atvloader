@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ATVPluginShortName</key>
+	<string>atvloader</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.frontrow.appliance.awkwardtv.loader</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.9</string>
+	<key>CFBundleSignature</key>
+	<string>frnw</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.9</string>
+	<key>FRApplianceDataSourceType</key>
+	<string>All</string>
+	<key>FRApplianceIconPath</key>
+	<string>PluginIcon.png</string>
+	<key>FRApplianceName</key>
+	<string>Awkward TV</string>
+	<key>FRAppliancePreferedOrderValue</key>
+	<real>6.0010000000000003</real>
+	<key>FRRemoteAppliance</key>
+	<false/>
+	<key>NSPrincipalClass</key>
+	<string>ATVLoaderAppliance</string>
+</dict>
+</plist>

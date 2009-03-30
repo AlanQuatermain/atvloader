@@ -1,0 +1,13 @@
+SSH serveren gør dig i stand til at logge ind på dit AppleTV fra en fjernlokation, ved brug af Secure Shell terminal softwaren, der er inkluderet på alle Apple Mac maskiner.
+
+Når SSH serveren er aktiveret, skal du finde IP adressen på dit AppleTV. Den finder du i menuen Indstillinger > Netværk. Herefter skriver du en kommando lignende den følgende, i Terminal programmet på din OS X maskine:
+
+ssh frontrow@10.0.1.2
+
+Erstat '10.0.1.2' med IP adressen på dit AppleTV.
+
+Første gang du forbinder dig vil du blive gjort opmærksom på serveren ikke kender klienten (dig), og du vil blive spurgt om dette er sikkert. Skriv 'yes' og tryk Enter for at fortsætte.
+
+Du bliver efterfølgende spurgt om et kodeord. Skriv 'frontrow' og tryk Enter. Kodeordet vil ikke blive vist på skærmen, dette er normalt.
+
+Hvis du ikke forstår dette, så har du givet vis ikke behov for at aktivere eller bruge det.

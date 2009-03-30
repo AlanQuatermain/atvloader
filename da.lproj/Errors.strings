@@ -1,0 +1,24 @@
+/* Failed to copy a file */
+"CopyNewFileFailed" = "Fejl ved kopiering af den nye fil";
+
+/* Failed to move an existing file out of the way */
+"MoveExistingFileFailed" = "Fejl ved flytning af eksisterende fil";
+
+/* Failed to move the new file into place */
+"MoveNewFileFailed" = "Fejl ved installation af den nye version";
+
+/* No sshd binary found to install */
+"NoSSHDBinaryToInstall" = "Ingen binær sshd fil fundet til installation";
+
+/* Re-run Patchstick process to reinstall plugin */
+"ReinstallPatchstick" = "Prøv at bruge Patchstick installationen igen, for at reparere dette";
+
+/* Setup Helper couldn't read command */
+"SetupHelperNoCommand" = "SetupHelper modtog ikke kommandoen";
+
+/* SetupHelper is not running as the root user */
+"SetupHelperNotRoot" = "SetupHelper kørte ikke med de nødvendige rettigheder for at udføre denne handling";
+
+/* Try running the command again */
+"TryAgain" = "Prøv at køre kommandoen igen";
+

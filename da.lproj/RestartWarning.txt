@@ -1,0 +1,3 @@
+Det valgte plugin er indlæst og kræver at du genstarter dit AppleTV nu.
+
+Når du trykker på Menu-knappen, vil den genstarte.

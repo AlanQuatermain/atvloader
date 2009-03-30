@@ -1,0 +1,17 @@
+h1. AwkwardTV Loader
+
+This is the original ATVLoader project, as described "here":http://alanquatermain.net/atvloader/.
+
+The code contained here is for AppleTV version 1.1. I've not had the opportunity to move it all to ATV 2.0 or higher yet (other projects have sadly taken over pretty much all of my time). I'm posting this here so that others can take a look and use it as a jumping-off point for their own efforts. Please fork this code if it's useful, or just grab what you need.
+
+I'm releasing this under the new BSD license, and at some point I'll get around to dropping it into the headers too, but in this initial code drop I'm just putting up a LICENSE file based on the template from OSI.
+
+h2. Thoughts on Future Directions
+
+Software should have a package format which allows developers to place items at different locations, and potentially to run scripts, although these would need to be sanitized. Perhaps the Javascript engine from WebKit cold be appropriated to create a JS API similar to Apple's Installer application.
+
+Installation should be implemented using a background task via launchd, which would be running as root to have its permissions setup properly without the need for setuid. It ought to export an interface to the appliance plugin, and the appliance will essentially hand off all the non-UI work to this.
+
+For instance, the appliance would handle browsing, download of software details, etc. When an item is to be installed, the package URL should be passed off to the launch daemon which would handle downloading it and installing its payload, along with parsing and handling the various commands contained within the package.
+
+Distributed Objects would be a suitable communication mechanism, and it supports encryption/authentication for all messages. If you want to go a bit lower-level, or if you want the daemon to be launched automatically based on its Mach port being requested (something launchd doesn't support until 10.5) then ping me and I'll tell you how to do that on 10.4.

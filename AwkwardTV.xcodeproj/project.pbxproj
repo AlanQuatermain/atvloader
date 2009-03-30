@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3802E0450BC9E0A500B6DA5A /* ATVPluginIconPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E0440BC9E0A500B6DA5A /* ATVPluginIconPreviewController.m */; };
+		3802E32D0BCAD35F00B6DA5A /* ATVPluginInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E03A0BC97E0000B6DA5A /* ATVPluginInfoController.m */; };
+		3802E36A0BCBB95600B6DA5A /* AFPInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3802E3660BCBB95600B6DA5A /* AFPInfo.txt */; };
+		3802E36B0BCBB95600B6DA5A /* SSHInfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3802E3680BCBB95600B6DA5A /* SSHInfo.txt */; };
+		3802E3A10BCD1FAD00B6DA5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089C1672FE841209C02AAC07 /* Foundation.framework */; };
+		3802E3A80BCD47BC00B6DA5A /* SetupHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E3A50BCD23AC00B6DA5A /* SetupHelper.m */; };
+		3802E3B40BCD49E000B6DA5A /* SetupHelper in Resources */ = {isa = PBXBuildFile; fileRef = 3802E39C0BCC322500B6DA5A /* SetupHelper */; };
+		3802E3BB0BCD4A1F00B6DA5A /* ATVSetupHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E3BA0BCD4A1F00B6DA5A /* ATVSetupHelper.m */; };
+		3802E3C00BCD6F7B00B6DA5A /* ATVDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E3BF0BCD6F7B00B6DA5A /* ATVDownloadController.m */; };
+		3802E3C30BCFB49F00B6DA5A /* PluginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802E3C20BCFB49F00B6DA5A /* PluginIcon.png */; };
+		3802E42D0BD02F5300B6DA5A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802E42C0BD02F5300B6DA5A /* CoreServices.framework */; };
+		3802E44F0BD048BC00B6DA5A /* ATVProgressControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E4450BD03F3F00B6DA5A /* ATVProgressControl.m */; };
+		3802E45F0BD3DBAC00B6DA5A /* BrowserListIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3802E45E0BD3DBAC00B6DA5A /* BrowserListIcon.png */; };
+		3802E46C0BD3F29400B6DA5A /* RestartWarning.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3802E46A0BD3F29400B6DA5A /* RestartWarning.txt */; };
+		3802E47B0BD4133B00B6DA5A /* sshd in Resources */ = {isa = PBXBuildFile; fileRef = 3802E47A0BD4133B00B6DA5A /* sshd */; };
+		3802E4850BD413BA00B6DA5A /* ATVRebootWarningController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802E4840BD413BA00B6DA5A /* ATVRebootWarningController.m */; };
+		3802E48C0BD4291E00B6DA5A /* AdvPluginReboot.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3802E48A0BD4291E00B6DA5A /* AdvPluginReboot.txt */; };
+		3802E5EB0BDA7ED800B6DA5A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3802E5EA0BDA7ED800B6DA5A /* libz.dylib */; };
+		3802E5EE0BDA7F1500B6DA5A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		3802E5F20BDA810800B6DA5A /* unzip in Resources */ = {isa = PBXBuildFile; fileRef = 3802E5F10BDA810800B6DA5A /* unzip */; };
+		3825785E0BC1AAB300D08288 /* BackRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3825785D0BC1AAB300D08288 /* BackRow.framework */; };
+		38257AC10BC1ACC700D08288 /* ATVLoaderAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 38257AC00BC1ACC700D08288 /* ATVLoaderAppliance.m */; };
+		38257B120BC1E69400D08288 /* ATVLoaderApplianceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38257B110BC1E69400D08288 /* ATVLoaderApplianceController.m */; };
+		383B52340BC2825600245B75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 383B52320BC2825600245B75 /* Localizable.strings */; };
+		384D5F930BE62F6E008A942D /* ATVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 384D5F920BE62F6E008A942D /* ATVLogger.m */; };
+		384D5F960BE64BCF008A942D /* ATVLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 384D5F920BE62F6E008A942D /* ATVLogger.m */; };
+		38615BD00BF7B3FE0080B168 /* ATVGZipper.m in Sources */ = {isa = PBXBuildFile; fileRef = 38615BCF0BF7B3FE0080B168 /* ATVGZipper.m */; };
+		38615C210BF8F7350080B168 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38615C1F0BF8F7350080B168 /* About.txt */; };
+		3895621C0BE68CDA00D8C4AC /* Errors.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3895621A0BE68CD900D8C4AC /* Errors.strings */; };
+		38FAD70F0BC292A6004611A4 /* BrowserPreviewIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38FAD70E0BC292A6004611A4 /* BrowserPreviewIcon.png */; };
+		38FAD7240BC2A44D004611A4 /* ATVPluginBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAD7230BC2A44D004611A4 /* ATVPluginBrowserController.m */; };
+		38FAD72A0BC2AE6C004611A4 /* ATVURLDataRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAD7290BC2AE6C004611A4 /* ATVURLDataRetriever.m */; };
+		38FAD7300BC2B996004611A4 /* ATVPluginListXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAD72F0BC2B996004611A4 /* ATVPluginListXMLParser.m */; };
+		38FAD7680BC2E51C004611A4 /* ATVPluginInfoXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FAD7670BC2E51C004611A4 /* ATVPluginInfoXMLParser.m */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3802E3B50BCD49F800B6DA5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3802E39B0BCC322500B6DA5A;
+			remoteInfo = SetupHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* AwkwardTV_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AwkwardTV_Prefix.pch; sourceTree = "<group>"; };
+		3802E0390BC97E0000B6DA5A /* ATVPluginInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVPluginInfoController.h; sourceTree = "<group>"; };
+		3802E03A0BC97E0000B6DA5A /* ATVPluginInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVPluginInfoController.m; sourceTree = "<group>"; };
+		3802E0430BC9E0A500B6DA5A /* ATVPluginIconPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVPluginIconPreviewController.h; sourceTree = "<group>"; };
+		3802E0440BC9E0A500B6DA5A /* ATVPluginIconPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVPluginIconPreviewController.m; sourceTree = "<group>"; };
+		3802E3670BCBB95600B6DA5A /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = English.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		3802E3690BCBB95600B6DA5A /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = English.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		3802E39C0BCC322500B6DA5A /* SetupHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetupHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		3802E3A40BCD23AC00B6DA5A /* SetupHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupHelper.h; sourceTree = "<group>"; };
+		3802E3A50BCD23AC00B6DA5A /* SetupHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupHelper.m; sourceTree = "<group>"; };
+		3802E3B90BCD4A1F00B6DA5A /* ATVSetupHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVSetupHelper.h; sourceTree = "<group>"; };
+		3802E3BA0BCD4A1F00B6DA5A /* ATVSetupHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVSetupHelper.m; sourceTree = "<group>"; };
+		3802E3BE0BCD6F7B00B6DA5A /* ATVDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVDownloadController.h; sourceTree = "<group>"; };
+		3802E3BF0BCD6F7B00B6DA5A /* ATVDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVDownloadController.m; sourceTree = "<group>"; };
+		3802E3C20BCFB49F00B6DA5A /* PluginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PluginIcon.png; sourceTree = "<group>"; };
+		3802E42C0BD02F5300B6DA5A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		3802E4440BD03F3F00B6DA5A /* ATVProgressControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVProgressControl.h; sourceTree = "<group>"; };
+		3802E4450BD03F3F00B6DA5A /* ATVProgressControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVProgressControl.m; sourceTree = "<group>"; };
+		3802E45E0BD3DBAC00B6DA5A /* BrowserListIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrowserListIcon.png; sourceTree = "<group>"; };
+		3802E46B0BD3F29400B6DA5A /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = English.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		3802E47A0BD4133B00B6DA5A /* sshd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sshd; sourceTree = "<group>"; };
+		3802E4830BD413BA00B6DA5A /* ATVRebootWarningController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVRebootWarningController.h; sourceTree = "<group>"; };
+		3802E4840BD413BA00B6DA5A /* ATVRebootWarningController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVRebootWarningController.m; sourceTree = "<group>"; };
+		3802E48B0BD4291E00B6DA5A /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = English.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		3802E5E70BDA7E9D00B6DA5A /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		3802E5E80BDA7E9D00B6DA5A /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		3802E5EA0BDA7ED800B6DA5A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = /usr/lib/libz.dylib; sourceTree = "<absolute>"; };
+		3802E5F10BDA810800B6DA5A /* unzip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unzip; sourceTree = "<group>"; };
+		3825785D0BC1AAB300D08288 /* BackRow.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BackRow.framework; path = /System/Library/PrivateFrameworks/BackRow.framework; sourceTree = "<absolute>"; };
+		38257ABF0BC1ACC600D08288 /* ATVLoaderAppliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVLoaderAppliance.h; sourceTree = "<group>"; };
+		38257AC00BC1ACC700D08288 /* ATVLoaderAppliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVLoaderAppliance.m; sourceTree = "<group>"; };
+		38257B0D0BC1BA9700D08288 /* BackRowUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackRowUtils.h; sourceTree = "<group>"; };
+		38257B100BC1E69400D08288 /* ATVLoaderApplianceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVLoaderApplianceController.h; sourceTree = "<group>"; };
+		38257B110BC1E69400D08288 /* ATVLoaderApplianceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVLoaderApplianceController.m; sourceTree = "<group>"; };
+		3827CFCF0BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Dutch; path = Dutch.lproj/About.txt; sourceTree = "<group>"; };
+		3827CFD00BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Dutch; path = Dutch.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		3827CFD10BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Dutch; path = Dutch.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		3827CFD20BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Errors.strings; sourceTree = "<group>"; };
+		3827CFD30BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3827CFD40BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Dutch; path = Dutch.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3827CFD50BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Dutch; path = Dutch.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		3827CFD60BFE05AC004103B7 /* Dutch */ = {isa = PBXFileReference; lastKnownFileType = text; name = Dutch; path = Dutch.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		383B52330BC2825600245B75 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		384369530C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text; name = da; path = da.lproj/About.txt; sourceTree = "<group>"; };
+		384369540C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text; name = da; path = da.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		384369550C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text; name = da; path = da.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		384369560C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Errors.strings; sourceTree = "<group>"; };
+		384369570C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		384369580C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		384369590C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text; name = da; path = da.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		3843695A0C0C7CB4006437F5 /* da */ = {isa = PBXFileReference; lastKnownFileType = text; name = da; path = da.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		384D5F910BE62F6E008A942D /* ATVLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVLogger.h; sourceTree = "<group>"; };
+		384D5F920BE62F6E008A942D /* ATVLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVLogger.m; sourceTree = "<group>"; };
+		38615BCE0BF7B3FE0080B168 /* ATVGZipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVGZipper.h; sourceTree = "<group>"; };
+		38615BCF0BF7B3FE0080B168 /* ATVGZipper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVGZipper.m; sourceTree = "<group>"; };
+		38615C200BF8F7350080B168 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = English; path = English.lproj/About.txt; sourceTree = "<group>"; };
+		386DA2960C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text; name = French; path = French.lproj/About.txt; sourceTree = "<group>"; };
+		386DA2970C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text; name = French; path = French.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		386DA2980C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text; name = French; path = French.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		386DA2990C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Errors.strings; sourceTree = "<group>"; };
+		386DA29A0C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386DA29B0C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		386DA29C0C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text; name = French; path = French.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		386DA29D0C0B5900004B460A /* French */ = {isa = PBXFileReference; lastKnownFileType = text; name = French; path = French.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		386DA29E0C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text; name = German; path = German.lproj/About.txt; sourceTree = "<group>"; };
+		386DA29F0C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text; name = German; path = German.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		386DA2A00C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text; name = German; path = German.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		386DA2A10C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Errors.strings; sourceTree = "<group>"; };
+		386DA2A20C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386DA2A30C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		386DA2A40C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text; name = German; path = German.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		386DA2A50C0B590C004B460A /* German */ = {isa = PBXFileReference; lastKnownFileType = text; name = German; path = German.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		386DA2A60C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text; name = Spanish; path = Spanish.lproj/About.txt; sourceTree = "<group>"; };
+		386DA2A70C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text; name = Spanish; path = Spanish.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		386DA2A80C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text; name = Spanish; path = Spanish.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		386DA2A90C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		386DA2AA0C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Spanish; path = Spanish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		386DA2AB0C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text; name = Spanish; path = Spanish.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		386DA2AC0C0B591A004B460A /* Spanish */ = {isa = PBXFileReference; lastKnownFileType = text; name = Spanish; path = Spanish.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		3895621B0BE68CD900D8C4AC /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Errors.strings; sourceTree = "<group>"; };
+		389D5A550C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text; name = Italian; path = Italian.lproj/About.txt; sourceTree = "<group>"; };
+		389D5A560C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text; name = Italian; path = Italian.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		389D5A570C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text; name = Italian; path = Italian.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		389D5A580C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Errors.strings; sourceTree = "<group>"; };
+		389D5A590C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		389D5A5A0C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		389D5A5B0C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text; name = Italian; path = Italian.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		389D5A5C0C2AAD7800CDA967 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text; name = Italian; path = Italian.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		38EE813F0C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text; name = sv; path = sv.lproj/About.txt; sourceTree = "<group>"; };
+		38EE81400C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text; name = sv; path = sv.lproj/AdvPluginReboot.txt; sourceTree = "<group>"; };
+		38EE81410C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text; name = sv; path = sv.lproj/AFPInfo.txt; sourceTree = "<group>"; };
+		38EE81420C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Errors.strings; sourceTree = "<group>"; };
+		38EE81430C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38EE81440C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		38EE81450C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text; name = sv; path = sv.lproj/RestartWarning.txt; sourceTree = "<group>"; };
+		38EE81460C32C64A00BAE83E /* sv */ = {isa = PBXFileReference; lastKnownFileType = text; name = sv; path = sv.lproj/SSHInfo.txt; sourceTree = "<group>"; };
+		38FAD70E0BC292A6004611A4 /* BrowserPreviewIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrowserPreviewIcon.png; sourceTree = "<group>"; };
+		38FAD7220BC2A44D004611A4 /* ATVPluginBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVPluginBrowserController.h; sourceTree = "<group>"; };
+		38FAD7230BC2A44D004611A4 /* ATVPluginBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVPluginBrowserController.m; sourceTree = "<group>"; };
+		38FAD7280BC2AE6C004611A4 /* ATVURLDataRetriever.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVURLDataRetriever.h; sourceTree = "<group>"; };
+		38FAD7290BC2AE6C004611A4 /* ATVURLDataRetriever.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVURLDataRetriever.m; sourceTree = "<group>"; };
+		38FAD72E0BC2B996004611A4 /* ATVPluginListXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVPluginListXMLParser.h; sourceTree = "<group>"; };
+		38FAD72F0BC2B996004611A4 /* ATVPluginListXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVPluginListXMLParser.m; sourceTree = "<group>"; };
+		38FAD7660BC2E51C004611A4 /* ATVPluginInfoXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATVPluginInfoXMLParser.h; sourceTree = "<group>"; };
+		38FAD7670BC2E51C004611A4 /* ATVPluginInfoXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATVPluginInfoXMLParser.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* AwkwardTV.frappliance */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwkwardTV.frappliance; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3802E39A0BCC322500B6DA5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3802E3A10BCD1FAD00B6DA5A /* Foundation.framework in Frameworks */,
+				3802E42D0BD02F5300B6DA5A /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3825785E0BC1AAB300D08288 /* BackRow.framework in Frameworks */,
+				3802E5EB0BDA7ED800B6DA5A /* libz.dylib in Frameworks */,
+				3802E5EE0BDA7F1500B6DA5A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AwkwardTV */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = AwkwardTV;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				3802E47A0BD4133B00B6DA5A /* sshd */,
+				3802E5F10BDA810800B6DA5A /* unzip */,
+				38FAD70E0BC292A6004611A4 /* BrowserPreviewIcon.png */,
+				3802E45E0BD3DBAC00B6DA5A /* BrowserListIcon.png */,
+				3802E3C20BCFB49F00B6DA5A /* PluginIcon.png */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				383B52320BC2825600245B75 /* Localizable.strings */,
+				3895621A0BE68CD900D8C4AC /* Errors.strings */,
+				3802E3660BCBB95600B6DA5A /* AFPInfo.txt */,
+				3802E3680BCBB95600B6DA5A /* SSHInfo.txt */,
+				3802E46A0BD3F29400B6DA5A /* RestartWarning.txt */,
+				3802E48A0BD4291E00B6DA5A /* AdvPluginReboot.txt */,
+				38615C1F0BF8F7350080B168 /* About.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				38257ABF0BC1ACC600D08288 /* ATVLoaderAppliance.h */,
+				38257AC00BC1ACC700D08288 /* ATVLoaderAppliance.m */,
+				38257B100BC1E69400D08288 /* ATVLoaderApplianceController.h */,
+				38257B110BC1E69400D08288 /* ATVLoaderApplianceController.m */,
+				38FAD7220BC2A44D004611A4 /* ATVPluginBrowserController.h */,
+				38FAD7230BC2A44D004611A4 /* ATVPluginBrowserController.m */,
+				38FAD7280BC2AE6C004611A4 /* ATVURLDataRetriever.h */,
+				38FAD7290BC2AE6C004611A4 /* ATVURLDataRetriever.m */,
+				38FAD72E0BC2B996004611A4 /* ATVPluginListXMLParser.h */,
+				38FAD72F0BC2B996004611A4 /* ATVPluginListXMLParser.m */,
+				38FAD7660BC2E51C004611A4 /* ATVPluginInfoXMLParser.h */,
+				38FAD7670BC2E51C004611A4 /* ATVPluginInfoXMLParser.m */,
+				3802E0390BC97E0000B6DA5A /* ATVPluginInfoController.h */,
+				3802E03A0BC97E0000B6DA5A /* ATVPluginInfoController.m */,
+				3802E0430BC9E0A500B6DA5A /* ATVPluginIconPreviewController.h */,
+				3802E0440BC9E0A500B6DA5A /* ATVPluginIconPreviewController.m */,
+				3802E3B90BCD4A1F00B6DA5A /* ATVSetupHelper.h */,
+				3802E3BA0BCD4A1F00B6DA5A /* ATVSetupHelper.m */,
+				3802E3BE0BCD6F7B00B6DA5A /* ATVDownloadController.h */,
+				3802E3BF0BCD6F7B00B6DA5A /* ATVDownloadController.m */,
+				3802E4440BD03F3F00B6DA5A /* ATVProgressControl.h */,
+				3802E4450BD03F3F00B6DA5A /* ATVProgressControl.m */,
+				3802E4830BD413BA00B6DA5A /* ATVRebootWarningController.h */,
+				3802E4840BD413BA00B6DA5A /* ATVRebootWarningController.m */,
+				384D5F910BE62F6E008A942D /* ATVLogger.h */,
+				384D5F920BE62F6E008A942D /* ATVLogger.m */,
+				38615BCE0BF7B3FE0080B168 /* ATVGZipper.h */,
+				38615BCF0BF7B3FE0080B168 /* ATVGZipper.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3802E42C0BD02F5300B6DA5A /* CoreServices.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				3825785D0BC1AAB300D08288 /* BackRow.framework */,
+				3802E5EA0BDA7ED800B6DA5A /* libz.dylib */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* AwkwardTV.frappliance */,
+				3802E39C0BCC322500B6DA5A /* SetupHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3802E5E70BDA7E9D00B6DA5A /* unzip.c */,
+				3802E5E80BDA7E9D00B6DA5A /* unzip.h */,
+				38257B0D0BC1BA9700D08288 /* BackRowUtils.h */,
+				32DBCF630370AF2F00C91783 /* AwkwardTV_Prefix.pch */,
+				3802E3A40BCD23AC00B6DA5A /* SetupHelper.h */,
+				3802E3A50BCD23AC00B6DA5A /* SetupHelper.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3802E39B0BCC322500B6DA5A /* SetupHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3802E39E0BCC327400B6DA5A /* Build configuration list for PBXNativeTarget "SetupHelper" */;
+			buildPhases = (
+				3802E3990BCC322500B6DA5A /* Sources */,
+				3802E39A0BCC322500B6DA5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetupHelper;
+			productName = SetupHelper;
+			productReference = 3802E39C0BCC322500B6DA5A /* SetupHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		8D5B49AC048680CD000E48DA /* AwkwardTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "AwkwardTV" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3802E3B60BCD49F800B6DA5A /* PBXTargetDependency */,
+			);
+			name = AwkwardTV;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = AwkwardTV;
+			productReference = 8D5B49B6048680CD000E48DA /* AwkwardTV.frappliance */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "AwkwardTV" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Dutch,
+				Spanish,
+				da,
+				Italian,
+				Swedish,
+				sv,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AwkwardTV */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* AwkwardTV */,
+				3802E39B0BCC322500B6DA5A /* SetupHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				383B52340BC2825600245B75 /* Localizable.strings in Resources */,
+				38FAD70F0BC292A6004611A4 /* BrowserPreviewIcon.png in Resources */,
+				3802E36A0BCBB95600B6DA5A /* AFPInfo.txt in Resources */,
+				3802E36B0BCBB95600B6DA5A /* SSHInfo.txt in Resources */,
+				3802E3B40BCD49E000B6DA5A /* SetupHelper in Resources */,
+				3802E3C30BCFB49F00B6DA5A /* PluginIcon.png in Resources */,
+				3802E45F0BD3DBAC00B6DA5A /* BrowserListIcon.png in Resources */,
+				3802E46C0BD3F29400B6DA5A /* RestartWarning.txt in Resources */,
+				3802E47B0BD4133B00B6DA5A /* sshd in Resources */,
+				3802E48C0BD4291E00B6DA5A /* AdvPluginReboot.txt in Resources */,
+				3802E5F20BDA810800B6DA5A /* unzip in Resources */,
+				3895621C0BE68CDA00D8C4AC /* Errors.strings in Resources */,
+				38615C210BF8F7350080B168 /* About.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3802E3990BCC322500B6DA5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3802E3A80BCD47BC00B6DA5A /* SetupHelper.m in Sources */,
+				384D5F960BE64BCF008A942D /* ATVLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38257AC10BC1ACC700D08288 /* ATVLoaderAppliance.m in Sources */,
+				38257B120BC1E69400D08288 /* ATVLoaderApplianceController.m in Sources */,
+				38FAD7240BC2A44D004611A4 /* ATVPluginBrowserController.m in Sources */,
+				38FAD72A0BC2AE6C004611A4 /* ATVURLDataRetriever.m in Sources */,
+				38FAD7300BC2B996004611A4 /* ATVPluginListXMLParser.m in Sources */,
+				38FAD7680BC2E51C004611A4 /* ATVPluginInfoXMLParser.m in Sources */,
+				3802E0450BC9E0A500B6DA5A /* ATVPluginIconPreviewController.m in Sources */,
+				3802E32D0BCAD35F00B6DA5A /* ATVPluginInfoController.m in Sources */,
+				3802E3BB0BCD4A1F00B6DA5A /* ATVSetupHelper.m in Sources */,
+				3802E3C00BCD6F7B00B6DA5A /* ATVDownloadController.m in Sources */,
+				3802E44F0BD048BC00B6DA5A /* ATVProgressControl.m in Sources */,
+				3802E4850BD413BA00B6DA5A /* ATVRebootWarningController.m in Sources */,
+				384D5F930BE62F6E008A942D /* ATVLogger.m in Sources */,
+				38615BD00BF7B3FE0080B168 /* ATVGZipper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3802E3B60BCD49F800B6DA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3802E39B0BCC322500B6DA5A /* SetupHelper */;
+			targetProxy = 3802E3B50BCD49F800B6DA5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+				3827CFD30BFE05AC004103B7 /* Dutch */,
+				386DA29A0C0B5900004B460A /* French */,
+				386DA2A20C0B590C004B460A /* German */,
+				386DA2A90C0B591A004B460A /* Spanish */,
+				384369570C0C7CB4006437F5 /* da */,
+				389D5A590C2AAD7800CDA967 /* Italian */,
+				38EE81430C32C64A00BAE83E /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3802E3660BCBB95600B6DA5A /* AFPInfo.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802E3670BCBB95600B6DA5A /* English */,
+				3827CFD10BFE05AC004103B7 /* Dutch */,
+				386DA2980C0B5900004B460A /* French */,
+				386DA2A00C0B590C004B460A /* German */,
+				386DA2A80C0B591A004B460A /* Spanish */,
+				384369550C0C7CB4006437F5 /* da */,
+				389D5A570C2AAD7800CDA967 /* Italian */,
+				38EE81410C32C64A00BAE83E /* sv */,
+			);
+			name = AFPInfo.txt;
+			sourceTree = "<group>";
+		};
+		3802E3680BCBB95600B6DA5A /* SSHInfo.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802E3690BCBB95600B6DA5A /* English */,
+				3827CFD60BFE05AC004103B7 /* Dutch */,
+				386DA29D0C0B5900004B460A /* French */,
+				386DA2A50C0B590C004B460A /* German */,
+				386DA2AC0C0B591A004B460A /* Spanish */,
+				3843695A0C0C7CB4006437F5 /* da */,
+				389D5A5C0C2AAD7800CDA967 /* Italian */,
+				38EE81460C32C64A00BAE83E /* sv */,
+			);
+			name = SSHInfo.txt;
+			sourceTree = "<group>";
+		};
+		3802E46A0BD3F29400B6DA5A /* RestartWarning.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802E46B0BD3F29400B6DA5A /* English */,
+				3827CFD50BFE05AC004103B7 /* Dutch */,
+				386DA29C0C0B5900004B460A /* French */,
+				386DA2A40C0B590C004B460A /* German */,
+				386DA2AB0C0B591A004B460A /* Spanish */,
+				384369590C0C7CB4006437F5 /* da */,
+				389D5A5B0C2AAD7800CDA967 /* Italian */,
+				38EE81450C32C64A00BAE83E /* sv */,
+			);
+			name = RestartWarning.txt;
+			sourceTree = "<group>";
+		};
+		3802E48A0BD4291E00B6DA5A /* AdvPluginReboot.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3802E48B0BD4291E00B6DA5A /* English */,
+				3827CFD00BFE05AC004103B7 /* Dutch */,
+				386DA2970C0B5900004B460A /* French */,
+				386DA29F0C0B590C004B460A /* German */,
+				386DA2A70C0B591A004B460A /* Spanish */,
+				384369540C0C7CB4006437F5 /* da */,
+				389D5A560C2AAD7800CDA967 /* Italian */,
+				38EE81400C32C64A00BAE83E /* sv */,
+			);
+			name = AdvPluginReboot.txt;
+			sourceTree = "<group>";
+		};
+		383B52320BC2825600245B75 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383B52330BC2825600245B75 /* English */,
+				3827CFD40BFE05AC004103B7 /* Dutch */,
+				386DA29B0C0B5900004B460A /* French */,
+				386DA2A30C0B590C004B460A /* German */,
+				386DA2AA0C0B591A004B460A /* Spanish */,
+				384369580C0C7CB4006437F5 /* da */,
+				389D5A5A0C2AAD7800CDA967 /* Italian */,
+				38EE81440C32C64A00BAE83E /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		38615C1F0BF8F7350080B168 /* About.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38615C200BF8F7350080B168 /* English */,
+				3827CFCF0BFE05AC004103B7 /* Dutch */,
+				386DA2960C0B5900004B460A /* French */,
+				386DA29E0C0B590C004B460A /* German */,
+				386DA2A60C0B591A004B460A /* Spanish */,
+				384369530C0C7CB4006437F5 /* da */,
+				389D5A550C2AAD7800CDA967 /* Italian */,
+				38EE813F0C32C64A00BAE83E /* sv */,
+			);
+			name = About.txt;
+			sourceTree = "<group>";
+		};
+		3895621A0BE68CD900D8C4AC /* Errors.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3895621B0BE68CD900D8C4AC /* English */,
+				3827CFD20BFE05AC004103B7 /* Dutch */,
+				386DA2990C0B5900004B460A /* French */,
+				386DA2A10C0B590C004B460A /* German */,
+				384369560C0C7CB4006437F5 /* da */,
+				389D5A580C2AAD7800CDA967 /* Italian */,
+				38EE81420C32C64A00BAE83E /* sv */,
+			);
+			name = Errors.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AwkwardTV_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /System/Library/CoreServices/Finder.app/Contents/PlugIns/;
+				PRODUCT_NAME = AwkwardTV;
+				WRAPPER_EXTENSION = frappliance;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AwkwardTV_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = AwkwardTV;
+				WRAPPER_EXTENSION = frappliance;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		3802E39F0BCC327400B6DA5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = SetupHelper;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		3802E3A00BCC327400B6DA5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = SetupHelper;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "AwkwardTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "AwkwardTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3802E39E0BCC327400B6DA5A /* Build configuration list for PBXNativeTarget "SetupHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3802E39F0BCC327400B6DA5A /* Debug */,
+				3802E3A00BCC327400B6DA5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
